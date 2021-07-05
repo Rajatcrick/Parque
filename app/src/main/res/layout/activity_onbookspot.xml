@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onbookspot">
+    <include layout="@layout/header"
+        android:id="@+id/ll_header"/>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/bgmap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_header" />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_marginTop="@dimen/_130sdp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/grey"-->
+<!--        app:layout_constrainedHeight="true"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ll_header"-->
+<!--        app:layout_constraintVertical_bias="0.987" >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_cncl"-->
+<!--            android:layout_width="135dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="247dp"-->
+<!--            android:layout_marginLeft="247dp"-->
+<!--            android:layout_marginBottom="31dp"-->
+<!--            android:background="@drawable/qrbackgroud"-->
+<!--            android:text="Cancel"-->
+<!--            app:backgroundTint="@color/brown_qr" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_width="144dp"-->
+<!--            android:layout_height="37dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="46dp"-->
+<!--            android:layout_marginLeft="46dp"-->
+<!--            android:layout_marginTop="222dp"-->
+<!--            android:layout_marginBottom="29dp"-->
+<!--            android:background="@drawable/qrbackgroud"-->
+<!--            android:text="30 Credits"-->
+<!--            app:backgroundTint="@color/blue_qr" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="178dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginTop="151dp"-->
+<!--            android:layout_marginEnd="92dp"-->
+<!--            android:layout_marginRight="92dp"-->
+<!--            android:layout_marginBottom="121dp"-->
+<!--            android:background="@drawable/signin_background"-->
+<!--            android:text="Pay:30 "-->
+<!--            android:textSize="@dimen/_25sdp"-->
+<!--            app:backgroundTint="#FF9057" />-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_margin="36dp"-->
+<!--            android:background="@drawable/zhc_background">-->
+<!--            <TextView-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="ZHC"-->
+<!--                android:textSize="@dimen/_30sdp"-->
+<!--                android:fontFamily="@font/gibson_regular"-->
+<!--                android:gravity="center"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="123"-->
+<!--                android:textSize="@dimen/_30sdp"-->
+<!--                android:fontFamily="@font/gibson_regular"-->
+<!--                android:gravity="center"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="342dp"-->
+<!--            android:layout_height="69dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="@dimen/_36sdp"-->
+<!--            android:layout_marginLeft="@dimen/_36sdp"-->
+<!--            android:layout_marginTop="@dimen/_129sdp"-->
+<!--            android:background="@drawable/background2"-->
+<!--            android:backgroundTint="#353A50"-->
+<!--            android:gravity="center">-->
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:background="@color/blue_qr"-->
+<!--                app:layoutManager=""/>-->
+
+<!--        </RelativeLayout>-->
+
+
+<!--    </RelativeLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

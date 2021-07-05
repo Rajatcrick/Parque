@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_parkings">
+
+    <fragment
+        android:id="@+id/nav_parkings"
+        android:name="com.parque.ui.home.HomeFragment"
+        android:label="@string/menu_nearByParkings"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_yourpass"
+        android:name="com.parque.ui.gallery.GalleryFragment"
+        android:label="@string/menu_pass"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_credits"
+        android:name="com.parque.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_buyCredits"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_parkhist"
+        android:name="com.parque.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_parkingHistory"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_yourcar"
+        android:name="com.parque.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_cars"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_fastags"
+        android:name="com.parque.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_fastTags"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

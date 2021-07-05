@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_parkings"
+            android:icon="@drawable/icon"
+            android:iconTint="@color/white"
+            android:title="@string/menu_nearByParkings" />
+        <item
+            android:id="@+id/nav_yourpass"
+            android:icon="@drawable/rectangle137"
+            android:iconTint="@color/white"
+            android:title="@string/menu_pass" />
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/icon1"
+            android:title="@string/menu_buyCredits" />
+        <item
+            android:id="@+id/nav_parkhist"
+            android:icon="@drawable/parkhist"
+            android:title="@string/menu_parkingHistory" />
+        <item
+            android:id="@+id/nav_yourcar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_cars" />
+        <item
+            android:id="@+id/nav_fastags"
+            android:icon="@drawable/fastag1"
+            android:title="@string/menu_fastTags" />
+    </group>
+
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LogOut" />
+        </menu>
+    </item>
+</menu>
